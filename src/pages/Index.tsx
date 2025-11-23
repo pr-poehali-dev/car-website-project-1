@@ -131,8 +131,7 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="pt-4 border-t border-border flex justify-between items-center">
-                      <p className="text-2xl font-bold text-primary">{car.price}</p>
+                    <div className="pt-4 border-t border-border flex justify-end items-center">
                       <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
                         Осмотр
                         <Icon name="ArrowRight" className="ml-2" size={16} />
@@ -234,7 +233,6 @@ const Index = () => {
                 </div>
 
                 <div className="pt-6 border-t border-border">
-                  <p className="text-3xl font-bold text-primary mb-6">{selectedCarData?.price}</p>
                   <div className="flex gap-4">
                     <Button className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground h-12">
                       <Icon name="Calendar" className="mr-2" size={18} />
