@@ -74,10 +74,6 @@ const Index = () => {
                 <Icon name="Car" className="mr-2" size={18} />
                 Модели
               </Button>
-              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
-                <Icon name="Phone" className="mr-2" size={18} />
-                Контакты
-              </Button>
             </nav>
           </div>
         </div>
