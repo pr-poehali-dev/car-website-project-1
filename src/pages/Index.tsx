@@ -64,7 +64,7 @@ const Index = () => {
       <header className="border-b border-border backdrop-blur-sm bg-background/80 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold glow text-primary">FUTURE MOTORS</h1>
+            <h1 className="text-3xl glow text-primary font-thin">FUTURE MOTORS</h1>
             <nav className="flex gap-6">
               <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
                 <Icon name="Home" className="mr-2" size={18} />
